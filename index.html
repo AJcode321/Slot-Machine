@@ -10,24 +10,63 @@
 <body>
   <main>
     <h1>Slot Machine</h1>
- 
-    <article class="machine">
+   <div class="machine-housing">
+    <article class="machine"></article>
       <section class="box"></section>
       <section class="screen"></section>
         <section class="Symbols">
-           <div class="symbol" id="apple">🍎</div>
-           <div class="symbol" id="banana">🍌</div>
-           <div class="symbol" id="orange">🍊</div>
-           <div class="symbol" id="grape">🍇</div>
-           <div class="symbol" id="watermelon">🍉</div>
+
+           <section class="reel1">
+           <div class="symbol" id="apple1">🍎</div>
+           <div class="symbol" id="banana1">🍌</div>
+           <div class="symbol" id="orange1">🍊</div>
+           <div class="symbol" id="grape1">🍇</div>
+           <div class="symbol" id="watermelon1">🍉</div>
+          </section>
+
+          <section class="reel2">
+           <div class="symbol" id="apple2">🍎</div>
+           <div class="symbol" id="banana2">🍌</div>
+           <div class="symbol" id="orange2">🍊</div>
+           <div class="symbol" id="grape2">🍇</div>
+           <div class="symbol" id="watermelon2">🍉</div>
+          </section>
+
+          <section class="reel3">
+           <div class="symbol" id="apple3">🍎</div>
+           <div class="symbol" id="banana3">🍌</div>
+           <div class="symbol" id="orange3">🍊</div>
+           <div class="symbol" id="grape3">🍇</div>
+           <div class="symbol" id="watermelon3">🍉</div>
+          </section>
+
+          <section class="reel4">
+           <div class="symbol" id="apple4">🍎</div>
+           <div class="symbol" id="banana4">🍌</div>
+           <div class="symbol" id="orange4">🍊</div>
+           <div class="symbol" id="grape4">🍇</div>
+           <div class="symbol" id="watermelon4">🍉</div>
+          </section>
+
+          <section class="reel5">
+           <div class="symbol" id="apple5">🍎</div>
+           <div class="symbol" id="banana5">🍌</div>
+           <div class="symbol" id="orange5">🍊</div>
+           <div class="symbol" id="grape5">🍇</div>
+           <div class="symbol" id="watermelon5">🍉</div>
+           </section>
+           
         </section>
         <section class="controls">
            <button id="spinButton">Spin</button>
            <button id="resetButton">Reset</button>
         </section>
       </section>
-    </article>
-
+    </div>  
+  <div class="bet">
+    <label for="betAmount">Bet Amount:</label>
+    <input type="number" id="betAmount" value="100" min="100" step="100" />
+  </div>
     
   </main>
   <script src="script.js"></script>
