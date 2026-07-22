@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    padding: 0px;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    border: black solid 2px;
+    border-radius: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+}
+
+.screen {
+    position: absolute;
+    top: 242px;
+    right: 457px;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+}
+
+.symbols {
+    position: absolute;
+    top: 250px;
+    right: 465px;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+}
